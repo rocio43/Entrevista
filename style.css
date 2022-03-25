@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1f242d;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 50px;
+}
+form input{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+    background: #262c37;
+    letter-spacing: 2px;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+textarea:focus, input:focus {
+    color: #00eeff;
+}
+
+input:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
+}
